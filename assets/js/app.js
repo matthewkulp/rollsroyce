@@ -58,8 +58,8 @@ $(document).ready(function() {
 
     //Slow scroll of .art-header-inner scroll and fade it out
     $artHeaderInner.css({
-      'margin-top' : -(windowScroll/3)+"px",
-      'opacity' : 1-(windowScroll/550)
+      // 'margin-top' : -(windowScroll/3)+"px",
+      // 'opacity' : 1-(windowScroll/400)
     });
 
     //Slowly parallax the background of .art-header
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
     //Fade the .nav out
     $nav.css({
-      'opacity' : 1-(windowScroll/400)
+      'opacity' : 1-(windowScroll/300)
     });
   }
 

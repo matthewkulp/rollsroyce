@@ -114,6 +114,7 @@ a:hover {
 ================================================== */
 .nav {
   position: absolute;
+  background-color: inherit;
   top: 0;
   left: 50%;
   height: 70px;
@@ -182,11 +183,11 @@ div.cover > img {
 /*  Article
 ================================================== */
 .art {
-  margin-top: -131px;
+/*   margin-top: -131px; */
 }
 /* Header */
 .art-header {
-  height: 900px;
+  height: 380px;
   /* Background image is defined in the post */
   background-position: top center;
   background-attachment: fixed;
@@ -194,8 +195,8 @@ div.cover > img {
 }
 /* Contains the time, title and subtitle for an article */
 .art-header-inner {
-  position: fixed;
-  top: 300px;
+  position: relative;
+  top: 200px;
   left: 50%;
   margin-left: -355px;
 }
