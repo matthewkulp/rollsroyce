@@ -187,7 +187,7 @@ div.cover > img {
 }
 /* Header */
 .art-header {
-  height: 380px;
+  height: 390px;
   /* Background image is defined in the post */
   background-position: top center;
   background-attachment: fixed;
@@ -196,7 +196,7 @@ div.cover > img {
 /* Contains the time, title and subtitle for an article */
 .art-header-inner {
   position: relative;
-  top: 200px;
+  top: 220px;
   left: 50%;
   margin-left: -355px;
 }
@@ -238,14 +238,14 @@ div.cover > img {
   position: relative;
   width: 100%;
   background: #fff;
-  z-index: 100;
+  z-index: 1;
   -webkit-box-shadow: 0 -3px 3px rgba(0,0,0,.2);
      -moz-box-shadow: 0 -3px 3px rgba(0,0,0,.2);
           box-shadow: 0 -3px 3px rgba(0,0,0,.2);
 }
 .art-body-inner {
   max-width: 640px;
-  padding: 80px 0 50px;
+  padding: 120px 0 50px;
 }
 .art-body-inner ul,
 .art-body-inner ol { /* For lists in the article body */
