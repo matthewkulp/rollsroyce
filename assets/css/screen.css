@@ -187,16 +187,14 @@ div.cover > img {
 }
 /* Header */
 .art-header {
-  height: 390px;
   /* Background image is defined in the post */
   background-position: top center;
   background-attachment: fixed;
-  overflow: hidden;
 }
 /* Contains the time, title and subtitle for an article */
 .art-header-inner {
   position: relative;
-  top: 220px;
+  padding-top: 220px;
   left: 50%;
   margin-left: -355px;
 }

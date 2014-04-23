@@ -66,11 +66,16 @@ $(document).ready(function() {
     $artHeader.css({
       'background-position' : 'center ' + (-windowScroll/8)+"px"
     });
-
+    
+    var headerHeight = $('.art-header').height();
+    
+    // if(windowScroll>headerHeight) {
+      $nav.css({
+        'opacity' : 1-((windowScroll-headerHeight)/40)
+      }); 
+    // }
+    
     //Fade the .nav out
-    $nav.css({
-      'opacity' : 13-(windowScroll/30)
-    });
   }
 
   // Link to top of page without changing URL
