@@ -56,26 +56,18 @@ $(document).ready(function() {
     //Get scroll position of window
     windowScroll = $(this).scrollTop();
 
-    //Slow scroll of .art-header-inner scroll and fade it out
-    // $artHeaderInner.css({
-      // 'margin-top' : -(windowScroll/3)+"px",
-      // 'opacity' : 1-(windowScroll/400)
-    // });
-
     //Slowly parallax the background of .art-header
     $artHeader.css({
       'background-position' : 'center ' + (-windowScroll/8)+"px"
     });
     
     var headerHeight = $('.art-header').height();
-    
-    // if(windowScroll>headerHeight) {
-      $nav.css({
-        'opacity' : 1-((windowScroll-headerHeight)/40)
-      }); 
-    // }
-    
-    //Fade the .nav out
+
+    // Fade out header    
+    $nav.css({
+      'opacity' : 1-((windowScroll-headerHeight)/40)
+    }); 
+
   }
 
   // Link to top of page without changing URL
