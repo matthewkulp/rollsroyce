@@ -1,8 +1,10 @@
-I owe major credit to #[Royce Haynes] (http://roycehaynes.com) for creating the #[Rolls Royce Theme] (https://github.com/roycehaynes/rollsroyce). 
+I owe major credit to [Royce Haynes] (http://roycehaynes.com) for creating the [Rolls Royce Theme] (https://github.com/roycehaynes/rollsroyce). 
 
-I built this theme off of the Rolls Royce theme. Call it Rolls Royce Neue?
+I built this theme from the Rolls Royce theme. I call it Rolls Royce Neue.
 
 [Sample site here.] (http://107.170.214.228/)
+
+
 
 
 
